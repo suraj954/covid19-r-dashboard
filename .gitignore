@@ -47,3 +47,7 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+# To avoid to upload large dataset on github as github allows only 100mb dataset
+data/*.csv
+data/*.zip
+data/*.xlsx
