@@ -1,14 +1,5 @@
-# Load library
 library(readr)
+url <- "https://catalog.ourworldindata.org/garden/covid/latest/compact/compact.csv"
+covid_data <- read_csv(url)
+head(covid_data)
 
-# Read dataset
-covid <- read_csv("data/covid_data.csv")
-
-# Preview dataset
-head(covid)
-
-# Structure of dataset
-str(covid)
-
-# Summary statistics
-summary(covid)
