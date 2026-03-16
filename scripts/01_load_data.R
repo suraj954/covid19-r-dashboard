@@ -3,3 +3,5 @@ url <- "https://catalog.ourworldindata.org/garden/covid/latest/compact/compact.c
 covid_data <- read_csv(url)
 head(covid_data)
 
+
+
